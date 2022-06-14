@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuBuku"
+        android:icon="@drawable/ic_baseline_attach_money_24"
+        android:title="BUKU"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuPeminjam"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Peminjam"
+        app:showAsAction="always" />
+    <item
+            android:id="@+id/menuPeminjaman"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="Peminjaman"
+            app:showAsAction="always" />
+</menu>
