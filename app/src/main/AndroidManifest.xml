@@ -13,7 +13,7 @@
                 android:name=".activity.AddPeminjamanActivity"
                 android:exported="true"/>
         <activity
-                android:name=".activity.AddPeminjamBuku"
+                android:name=".activity.AddPeminjamActivity"
                 android:exported="true"/>
         <activity
                 android:name=".activity.AddBukuActivity"
