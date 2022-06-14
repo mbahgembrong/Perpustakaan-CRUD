@@ -1,7 +1,8 @@
-package com.example.perpustakaan_mobile
+package com.example.perpustakaan_mobile.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.perpustakaan_mobile.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

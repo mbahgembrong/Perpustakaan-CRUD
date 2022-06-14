@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="200dp"
+                                                   android:layout_height="wrap_content" android:padding="8dp"
+                                                   android:layout_margin="8dp">
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" tools:srcCompat="@tools:sample/avatars" android:id="@+id/imgGridBuku"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:id="@+id/txtJudulGridBuku"
+            android:layout_marginVertical="8dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgGridBuku" android:gravity="center"
+            android:textColor="#090909" android:textStyle="bold"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:id="@+id/txtPenulisGridBuku"
+            app:layout_constraintTop_toBottomOf="@+id/txtJudulGridBuku" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="8dp" android:textColor="#000000"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:id="@+id/txtPenerbitGridBuku"
+            android:layout_marginVertical="8dp"
+            android:layout_marginRight="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toStartOf="@+id/txtTahunGridBuku"
+            app:layout_constraintTop_toBottomOf="@+id/txtPenulisGridBuku"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:id="@+id/txtTahunGridBuku"
+            android:layout_marginLeft="4dp"
+            app:layout_constraintStart_toEndOf="@+id/txtPenerbitGridBuku" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txtPenerbitGridBuku" app:layout_constraintHorizontal_bias="0.5"/>
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/btnUpdateGridBuku"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnDeleteGridBuku" app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toBottomOf="@+id/txtPenerbitGridBuku" android:layout_marginTop="8dp"
+            tools:srcCompat="@drawable/ic_baseline_update_24" android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:srcCompat="@drawable/ic_baseline_restore_from_trash_24"
+            android:id="@+id/btnDeleteGridBuku"
+            app:layout_constraintTop_toTopOf="@+id/btnUpdateGridBuku" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnUpdateGridBuku" app:layout_constraintHorizontal_bias="0.5"
+            android:minHeight="48dp" tools:ignore="SpeakableTextPresentCheck"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

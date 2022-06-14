@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PerpustakaanMobile/app/src/main/res/layout/activity_add.xml" value="0.1" />
+        <entry key="..\:/PerpustakaanMobile/app/src/main/res/layout/activity_add_buku.xml" value="0.1" />
+        <entry key="..\:/PerpustakaanMobile/app/src/main/res/layout/activity_add_peminjam_buku.xml" value="0.1" />
+        <entry key="..\:/PerpustakaanMobile/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/PerpustakaanMobile/app/src/main/res/layout/fragment_buku.xml" value="0.25" />
+        <entry key="..\:/PerpustakaanMobile/app/src/main/res/layout/fragment_peminjam.xml" value="0.33" />
+        <entry key="..\:/PerpustakaanMobile/app/src/main/res/layout/fragment_peminjaman.xml" value="0.125" />
+        <entry key="..\:/PerpustakaanMobile/app/src/main/res/layout/grid_buku.xml" value="0.22" />
+        <entry key="..\:/PerpustakaanMobile/app/src/main/res/layout/list_peminjam.xml" value="0.22" />
+        <entry key="..\:/PerpustakaanMobile/app/src/main/res/layout/list_peminjaman.xml" value="0.33" />
+        <entry key="..\:/PerpustakaanMobile/app/src/main/res/menu/bottom_nav.xml" value="0.1" />
+        <entry key="..\:/PerpustakaanMobile/app/src/main/res/menu/menu_popup.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="jbr-11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

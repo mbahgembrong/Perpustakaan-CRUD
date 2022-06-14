@@ -10,7 +10,16 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.PerpustakaanMobile">
         <activity
-                android:name=".MainActivity"
+                android:name=".activity.AddPeminjamanActivity"
+                android:exported="true"/>
+        <activity
+                android:name=".activity.AddPeminjamBuku"
+                android:exported="true"/>
+        <activity
+                android:name=".activity.AddBukuActivity"
+                android:exported="true"/>
+        <activity
+                android:name=".activity.MainActivity"
                 android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
